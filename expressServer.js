@@ -32,6 +32,10 @@ app.get("/resturant", (req,res) =>{
 app.get("/user", (req,res) =>{
     res.send(user)
 })
+
+app.get("/about", (req,res) =>{
+    res.send("this is the about page")
+})
 //
 
 app.post("/food", (req,res)=> {
